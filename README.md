@@ -1,7 +1,7 @@
 # Introduction
 📊 Dive into the data job market! Focusing on data analyst roles, this project explores 💰 top-paying jobs, 🔥 in-demand skills, and 📈 where high demand meets high salary in data analytics.
 
-🔍 SQL queries? Check them out here: [project_sql folder](/project_sql/)
+🔍 SQL queries? Check them out here: [project_sql folder](https://github.com/tom-wilmott/SQL-Project/tree/master/project_sql)
 
 # Background
 This project was developed to better understand the UK data analyst job market—specifically remote roles and those based in the UK, where I’m currently applying. The goal was to identify which skills are most in-demand and command the highest salaries, helping to target my efforts more strategically.
@@ -55,7 +55,8 @@ Here's the breakdown of the top remote and UK based data analyst jobs:
 - **Diverse Employers:** Companies like Motional, Meta, and Pinterest are among those offering high salaries, showing a broad interest across different industries.
 - **Job Title Variety:** There's a high diversity in job titles, from Data Analyst to Associate Director, reflecting varied roles and specializations within data analytics.
 
-![Top Paying Roles](assets/1_top_paying_roles.png)
+![Top Paying Roles](https://github.com/tom-wilmott/SQL-Project/blob/master/Images/Q1%20Table.png)
+
 *Bar graph visualizing the salary for the top 10 salaries for remote and UK based data analysts; created in PowerBI from my SQL query results*
 
 ### 2. Skills for Top Paying Jobs
@@ -97,7 +98,9 @@ Here's the breakdown of the most demanded skills for the top 10 highest paying r
 - **Tableau** is also highly sought after, with 6 out of 10.
 Other skills like **R**, **Snowflake**, **Pandas**, and **Excel** show varying degrees of demand.
 
-![Top Paying Skills](assets/2_top_paying_roles_skills.png)
+
+![Top Paying Skills](https://github.com/tom-wilmott/SQL-Project/blob/master/Images/Q2%20Table.png)
+
 *Bar graph visualizing the count of skills for the top 10 paying remote and UK based jobs for data analysts; created in PowerBI from my SQL query results*
 
 ### 3. In-Demand Skills for Data Analysts
@@ -133,7 +136,7 @@ Here's the breakdown of the most demanded skills for remote and UK based data an
 | Power BI | 5214         |
 | Tableau  | 5208         |
 
-*Table of the demand for the top 5 skills in data analyst job postings*
+*Table of the demand for the top 5 skills in remote and UK based data analyst job postings*
 
 ### 4. Skills Based on Salary
 Exploring the average salaries associated with different skills revealed which skills are the highest paying.
@@ -180,7 +183,7 @@ Salary insights reveal three key themes driving higher pay in data analytics rol
 | datarobot     |            115,059 |
 | elasticsearch |            114,700 |
 
-*Table of the average salary for the top 10 paying skills for data analysts*
+*Table of the average salary for the top 10 paying skills for remote and UK based data analysts*
 
 ### 5. Most Optimal Skills to Learn
 
