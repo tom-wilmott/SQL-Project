@@ -4,7 +4,7 @@
 🔍 SQL queries? Check them out here: [project_sql folder](https://github.com/tom-wilmott/SQL-Project/tree/master/project_sql)
 
 # Background
-This project was developed to better understand the UK data analyst job market—specifically remote roles and those based in the UK, where I’m currently applying. The goal was to identify which skills are most in-demand and command the highest salaries, helping to target my efforts more strategically.
+This project was developed to better understand the UK data analyst job market. Specifically, remote roles and those based in the UK, where I’m currently applying. The goal was to identify which skills are most in-demand and command the highest salaries, helping to target my efforts more strategically.
 
 The data can be found [here](https://github.com/tom-wilmott/SQL-Project/tree/master/csv_files) and contains insights on job titles, salaries, locations, and essential skills from real world job postings.
 
@@ -19,7 +19,7 @@ The data can be found [here](https://github.com/tom-wilmott/SQL-Project/tree/mas
 # Tools I Used
 For my deep dive into the data analyst job market, I utilised several key tools:
 
-- **SQL:** The backbone of my analysis, allowing me to query the database and unearth critical insights.
+- **SQL:** The foundation of my analysis, allowing me to query the database and unearth critical insights.
 - **PostgreSQL:** The chosen database management system, ideal for handling the job posting data.
 - **Visual Studio Code:** My go-to for database management and executing SQL queries.
 - **Git & GitHub:** Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
@@ -53,11 +53,11 @@ LIMIT 10;
 Here's the breakdown of the top remote and UK based data analyst jobs:
 - **Broad Salary Range:** Top 10 paying data analyst roles span from £136,160 to £481,000, indicating significant salary potential in the field.
 - **Diverse Employers:** Companies like Motional, Meta, and Pinterest are among those offering high salaries, showing a broad interest across different industries.
-- **Job Title Variety:** There's a high diversity in job titles, from Data Analyst to Associate Director, reflecting varied roles and specializations within data analytics.
+- **Job Title Variety:** There's a high diversity in job titles, from Data Analyst to Associate Director, reflecting varied roles and specialisations within data analytics.
 
 ![Top Paying Roles](https://github.com/tom-wilmott/SQL-Project/blob/master/Images/Q1%20Table.png)
 
-*Bar graph visualizing the salary for the top 10 salaries for remote and UK based data analysts; created in PowerBI from my SQL query results*
+*Bar graph visualising the salary for the top 10 salaries for remote and UK based data analysts; created in PowerBI from my SQL query results*
 
 ### 2. Skills for Top Paying Jobs
 To understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles.
@@ -101,7 +101,7 @@ Other skills like **R**, **Snowflake**, **Pandas**, and **Excel** show varying d
 
 ![Top Paying Skills](https://github.com/tom-wilmott/SQL-Project/blob/master/Images/Q2%20Table.png)
 
-*Bar graph visualizing the count of skills for the top 10 paying remote and UK based jobs for data analysts; created in PowerBI from my SQL query results*
+*Bar graph visualising the count of skills for the top 10 paying remote and UK based jobs for data analysts; created in PowerBI from my SQL query results*
 
 ### 3. In-Demand Skills for Data Analysts
 
@@ -124,9 +124,9 @@ ORDER BY
     COUNT DESC
 LIMIT 5;
 ```
-Here's the breakdown of the most demanded skills for remote and UK based data analysts
-- **SQL** and **Excel** remain fundamental, emphasizing the need for strong foundational skills in data processing and spreadsheet manipulation.
-- **Programming** and **Visualization Tools** like **Python**, **Power BI**, and **Tableau** are essential, pointing towards the increasing importance of technical skills in data storytelling and decision support.
+Here's the breakdown of the most demanded skills for remote and UK based data analysts:
+- **SQL** and **Excel** remain fundamental, emphasising the need for strong foundational skills in data processing and spreadsheet manipulation.
+- **Programming** and **Visualisation Tools** like **Python**, **Power BI**, and **Tableau** are essential, pointing towards the increasing importance of technical skills in data storytelling and decision support.
 
 | Skills   | Demand Count |
 |----------|--------------|
@@ -159,7 +159,7 @@ ORDER BY
 LIMIT 10;
 ```
 
-Salary insights reveal three key themes driving higher pay in data analytics roles:
+Salary insights reveal three key themes driving higher pay in remote and UK based data analytics roles:
 
  **Big Data & ML Tools:**  
   Skills in **PySpark**, **Couchbase**, **Watson**, and **DataRobot** consistently rank among the highest-paid, reflecting strong demand for scalable data processing and predictive modeling.
@@ -225,21 +225,21 @@ LIMIT 25;
 | 79       | oracle     | 40           |            78,485  |
 | 2        | nosql      | 14           |            78,343  |
 
-*Table of the most optimal skills for data analyst sorted by salary*
+*Table of the most optimal skills for remote and UK based data analyst sorted by salary*
 
 Here's a breakdown of the most optimal skills for remote and UK based Data Analysts: 
 
-- **High-Demand Programming Languages:** Python and R stand out for their high demand, with demand counts of 260 and 157 respectively. Despite their high demand, their average salaries are around £74,419 for Python and £73,861 for R, indicating that proficiency in these languages is highly valued but also widely available.
-- **Cloud Tools and Technologies:** Skills in specialized technologies such as Snowflake, Azure, AWS, and BigQuery show significant demand with relatively high average salaries, pointing towards the growing importance of cloud platforms and big data technologies in data analysis.
-- **Business Intelligence and Visualization Tools:** Tableau and Looker, with demand counts of 243 and 55 respectively, and average salaries around £72,792 and £76,580, highlight the critical role of data visualization and business intelligence in deriving actionable insights from data.
+- **High-Demand Programming Languages:** Despite not appearing in the top 10 highest salaries, Python and R stand out for their high demand with demand counts of 260 and 157 respectively. Despite their high demand, their average salaries are around £74,419 for Python and £73,861 for R, indicating that proficiency in these languages is highly valued but also widely available.
+- **Cloud Tools and Technologies:** Skills in specialised technologies such as Snowflake, Azure, AWS, and BigQuery show significant demand with relatively high average salaries, pointing towards the growing importance of cloud platforms and big data technologies in data analysis.
+- **Business Intelligence and Visualisation Tools:** Tableau and Looker, with demand counts of 243 and 55 respectively, and average salaries around £72,792 and £76,580, highlight the critical role of data visualisation and business intelligence in deriving actionable insights from data.
 - **Database Technologies:** The demand for skills in traditional and NoSQL databases (Oracle, SQL Server, NoSQL) with average salaries ranging from £74,076 to £78,485, reflects the enduring need for data storage, retrieval, and management expertise.
 
 # What I Learned
 
 Throughout this project, I significantly expanded my SQL capabilities, sharpening both technical precision and analytical thinking:
 
-- **🧩 Complex Query Crafting:** Developed advanced SQL fluency, confidently joining tables, nesting queries, and using WITH clauses to streamline temporary logic and improve readability.
-- **📊 Data Aggregation:** Applied GROUP BY and aggregate functions like COUNT() and AVG() to extract meaningful summaries and trends from raw datasets.
+- **🧩 Complex Query Crafting:** Developed advanced SQL fluency, confidently joining tables, nesting queries, and using `WITH` clauses to streamline temporary logic and improve readability.
+- **📊 Data Aggregation:** Applied `GROUP BY` and aggregate functions like `COUNT()` and `AVG()` to extract meaningful summaries and trends from raw datasets.
 - **💡 Analytical Problem-Solving:** Translated real world questions into structured, insightful queries, enhancing my ability to uncover patterns, answer business relevant questions, and support data driven decisions.
 
 # Conclusions
@@ -250,9 +250,9 @@ From the analysis, several general insights emerged:
 1. **Top-Paying Data Analyst Jobs**: The highest-paying jobs for data analysts that allow remote work or are UK based offer a wide range of salaries, the highest at £481,000!
 2. **Skills for Top-Paying Jobs**: High-paying data analyst jobs require advanced proficiency in SQL, suggesting it’s a critical skill for earning a top salary.
 3. **Most In-Demand Skills**: SQL is also the most demanded skill in the data analyst job market, thus making it essential for job seekers.
-4. **Skills with Higher Salaries**: Specialized technical skills such as Bitbucket, TensorFlow, PyTorch, and PySpark are associated with the highest average salaries, highlighting the premium placed on expertise in big data, machine learning, and modern development workflows.
-5. **Optimal Skills for Job Market Value**: SQL leads in demand and offers for a high average salary, positioning it as one of the most optimal skills for data analysts to learn to maximize their market value.
+4. **Skills with Higher Salaries**: Specialised technical skills such as Bitbucket, TensorFlow, PyTorch, and PySpark are associated with the highest average salaries, highlighting the premium placed on expertise in big data, machine learning, and modern development workflows.
+5. **Optimal Skills for Job Market Value**: SQL leads in demand and offers for a high average salary, positioning it as one of the most optimal skills for data analysts to learn to maximise their market value.
 
 ### Closing Thoughts
 
-This project enhanced my SQL skills and provided valuable insights into the remote abd UK based data analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
+This project enhanced my SQL skills and provided valuable insights into the remote and UK based data analyst job market. The findings from the analysis serve as a guide to prioritiaing skill development and job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
