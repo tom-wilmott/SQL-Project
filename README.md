@@ -6,7 +6,7 @@
 # Background
 This project was developed to better understand the UK data analyst job market—specifically remote roles and those based in the UK, where I’m currently applying. The goal was to identify which skills are most in-demand and command the highest salaries, helping to target my efforts more strategically.
 
-The data come from [SQL Course](https://lukebarousse.com/sql) and contains insights on job titles, salaries, locations, and essential skills from real world job postings.
+The data can be found [here](https://github.com/tom-wilmott/SQL-Project/tree/master/csv_files) and contains insights on job titles, salaries, locations, and essential skills from real world job postings.
 
 ### The questions I wanted to answer through my SQL queries were:
 
